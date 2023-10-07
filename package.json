@@ -7,7 +7,15 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.33.0",
     "json-server": "^0.17.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
@@ -82,6 +90,7 @@
     "es-set-tostringtag": "^2.0.1",
     "es-shim-unscopables": "^1.0.0",
     "es-to-primitive": "^1.2.1",
+    "es6-promise": "^4.2.8",
     "escalade": "^3.1.1",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^4.0.0",
@@ -227,6 +236,7 @@
     "negotiator": "^0.6.3",
     "neo-async": "^2.6.2",
     "node-releases": "^2.0.13",
+    "nodelist-foreach-polyfill": "^1.2.0",
     "object-assign": "^4.1.1",
     "object-inspect": "^1.12.3",
     "object-keys": "^1.1.1",
